@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Labs</title>
+    <style>
+        :root { --bg: #0f1115; --card: #181b22; --text: #e8e8ea; --muted: #9aa0aa; --accent: #f7df1e; }
+        * { box-sizing: border-box; }
+        body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+        main { max-width: 960px; margin: 0 auto; padding: 48px 16px; }
+        h1 { margin: 0 0 4px; font-size: 32px; }
+        h1 span { color: var(--accent); }
+        p.sub { margin: 0 0 32px; color: var(--muted); }
+        .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+        a.card { display: block; padding: 20px; border-radius: 12px; background: var(--card); color: inherit; text-decoration: none; border: 1px solid #262a33; transition: transform .15s, border-color .15s; }
+        a.card:hover { transform: translateY(-2px); border-color: var(--accent); }
+        .num { color: var(--accent); font-weight: 700; font-size: 14px; }
+        .title { font-size: 18px; font-weight: 600; margin: 4px 0 8px; }
+        .desc { color: var(--muted); font-size: 14px; margin: 0; }
+        footer { margin-top: 40px; color: var(--muted); font-size: 14px; }
+        footer a { color: var(--muted); }
+    </style>
+</head>
+<body>
+<main>
+    <h1><span>JS</span> Labs</h1>
+    <p class="sub">Лабораторні роботи з JavaScript · 2 курс · 2023</p>
+    <div class="grid">
+        <a class="card" href="07-magic-ball/"><div class="num">Лаб. 7</div><div class="title">Магічна куля</div><p class="desc">Куля слідує за курсором і відповідає на питання.</p></a>
+        <a class="card" href="08-number-duel/"><div class="num">Лаб. 8</div><div class="title">Користувач vs Комп’ютер</div><p class="desc">Випадкові числа, гра до трьох перемог.</p></a>
+        <a class="card" href="09-card-game-21/"><div class="num">Лаб. 9</div><div class="title">Карткова гра «21»</div><p class="desc">Три роздачі карт з анімацією та підрахунком очок.</p></a>
+        <a class="card" href="10-slot-machine/"><div class="num">Лаб. 10</div><div class="title">Однорукий бандит</div><p class="desc">Слот-машина 3×3 з анімованими барабанами.</p></a>
+        <a class="card" href="11-flashcards/"><div class="num">Лаб. 11</div><div class="title">Картки зі словами</div><p class="desc">Тренажер перекладу EN → UA на jQuery.</p></a>
+        <a class="card" href="12-flashcards-levels/"><div class="num">Лаб. 12</div><div class="title">Картки з рівнями</div><p class="desc">Тренажер з рівнями складності та підсумком точності.</p></a>
+    </div>
+    <footer><a href="https://github.com/NewJong/js-labs">Код на GitHub</a></footer>
+</main>
+</body>
+</html>
