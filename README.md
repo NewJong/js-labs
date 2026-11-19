@@ -1,22 +1,22 @@
 # JavaScript Labs
 
-Лабораторні роботи з JavaScript, 2 курс (осінь 2023). Кожна лабораторна — невелика браузерна гра або тренажер на чистому JS (останні дві — з jQuery).
+University lab assignments in JavaScript (2nd year, fall 2023). Each lab is a small browser game or trainer written in vanilla JS; the last two use jQuery.
 
-**▶ Грати онлайн:** https://newjong.github.io/js-labs/
+**▶ Play online:** https://newjong.github.io/js-labs/
 
-| № | Лабораторна | Що всередині | Демо |
+| # | Lab | What it does | Demo |
 |---|---|---|---|
-| 7 | [Магічна куля](07-magic-ball) | Куля слідує за курсором і по кліку відповідає «Так / Ні / Можливо». Весь DOM і CSS-анімація створюються з JS. | [відкрити](https://newjong.github.io/js-labs/07-magic-ball/) |
-| 8 | [Користувач vs Комп’ютер](08-number-duel) | Гравець і комп’ютер отримують випадкові числа 1–9, хто першим набере 3 перемоги — виграв. | [відкрити](https://newjong.github.io/js-labs/08-number-duel/) |
-| 9 | [Карткова гра «21»](09-card-game-21) | Три роздачі карт з анімацією, сумуються очки, переможець визначається в кінці. | [відкрити](https://newjong.github.io/js-labs/09-card-game-21/) |
-| 10 | [Однорукий бандит](10-slot-machine) | Слот-машина 3×3 з анімованими барабанами (async/await, transition-події), три спроби на виграш. | [відкрити](https://newjong.github.io/js-labs/10-slot-machine/) |
-| 11 | [Картки зі словами](11-flashcards) | Тренажер перекладу EN → UA: клік по картці показує переклад, рахуються правильні та помилкові відповіді. jQuery. | [відкрити](https://newjong.github.io/js-labs/11-flashcards/) |
-| 12 | [Картки з рівнями складності](12-flashcards-levels) | Той самий тренажер, але з вибором рівня Easy / Medium / Hard і підсумковою точністю. jQuery. | [відкрити](https://newjong.github.io/js-labs/12-flashcards-levels/) |
+| 7 | [Magic Ball](07-magic-ball) | A magic 8-ball follows the cursor and answers "Yes / No / Maybe" on click. All DOM and CSS animation are created from JS. | [open](https://newjong.github.io/js-labs/07-magic-ball/) |
+| 8 | [User vs Computer](08-number-duel) | Player and computer roll random numbers 1–9; first to 3 wins takes the game. | [open](https://newjong.github.io/js-labs/08-number-duel/) |
+| 9 | [Card Game "21"](09-card-game-21) | Three animated card deals, points are summed and the winner is shown at the end. | [open](https://newjong.github.io/js-labs/09-card-game-21/) |
+| 10 | [Slot Machine](10-slot-machine) | 3×3 slot machine with animated reels (async/await, transition events), three spins to win. | [open](https://newjong.github.io/js-labs/10-slot-machine/) |
+| 11 | [Word Flashcards](11-flashcards) | English → Ukrainian vocabulary trainer: click a card to reveal the translation, correct and wrong answers are counted. jQuery. | [open](https://newjong.github.io/js-labs/11-flashcards/) |
+| 12 | [Flashcards with Levels](12-flashcards-levels) | Same trainer with Easy / Medium / Hard levels and a final accuracy score. jQuery. | [open](https://newjong.github.io/js-labs/12-flashcards-levels/) |
 
-## Запуск локально
+## Run locally
 
-Збірка не потрібна — достатньо відкрити `index.html` потрібної лабораторної в браузері.
+No build step — just open `index.html` of any lab in a browser.
 
-## Стек
+## Tech
 
-HTML, CSS, JavaScript (DOM API, події, CSS-анімації, async/await), jQuery 3.6.
+HTML, CSS, JavaScript (DOM API, events, CSS animations, async/await), jQuery 3.6.

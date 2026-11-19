@@ -33,7 +33,7 @@ animationStyle.textContent = `
 document.head.appendChild(animationStyle);
 document.body.appendChild(magicBall);
 let questionText = document.createElement('div');
-questionText.innerText = 'Чи любите Ви JavaScript?';
+questionText.innerText = 'Do you love JavaScript?';
 questionText.style.color = "yellow"; 
 questionText.style.fontSize = "20px";
 questionText.style.position = 'absolute';
@@ -62,7 +62,7 @@ magicBall.addEventListener('click', function () {
 });
 document.addEventListener('mousemove', moveBallAndQuestion);
 function generateRandomAnswer() {
-    let answers = ["Так", "Ні", "Можливо"];
+    let answers = ["Yes", "No", "Maybe"];
     
     let randomIndex = Math.floor(Math.random() * answers.length);
     return answers[randomIndex];
